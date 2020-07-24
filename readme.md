@@ -4,7 +4,7 @@
 ## StaticProxy
 静态代理
 
-![静态代理](img/Package staticproxy.png)
+![静态代理](img/Package%20staticproxy.png)
 
 优点：
 > 隐藏具体实现，一定程度上解耦
@@ -16,7 +16,7 @@
 ## DynamicProxyJDK
 JDK原生动态代理
 
-![JDK原生动态代理](img/Package dynamicproxyjdk.png)
+![JDK原生动态代理](img/Package%20dynamicproxyjdk.png)
 
 原理：
 >通过反射实现目标类方法调用
@@ -31,7 +31,7 @@ JDK原生动态代理
 ## DynamicProxyCGLib
 基于CGLib的动态代理
 
-![CGLib动态代理](img/Package dynamicproxycglib.png)
+![CGLib动态代理](img/Package%20dynamicproxycglib.png)
 
 原理：
 > fastclass方式生成被代理类的子类，通过子类实现方法拦截及目标方法调用
@@ -45,7 +45,7 @@ JDK原生动态代理
 ## DynamicProxyJavassist
 基于Javassist的动态代理
 
-![Javassist动态代理](img/Package dynamicproxyjavassist.png)
+![Javassist动态代理](img/Package%20dynamicproxyjavassist.png)
 
 原理：
 > 动态生成字节码
